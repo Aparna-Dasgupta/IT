@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>Excalibur</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif background-color:#99ff99}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body bgcolor="#99ff99">
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="restaurant_register.php" onclick="w3_close()" class="w3-bar-item w3-button">Register</a>
+  <a href="login.php" onclick="w3_close()" class="w3-bar-item w3-button">Login</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xsmall" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="right>Login</div>
+    <div class="w3-center w3-padding-16"><P>
+	<center><h1><span style='color:green'>E</span>
+	<span style='color:green'>x</span>
+	<span style='color:blue'>c</span>
+	<span style='color:green'>a</span>
+	<span style='color:blue'>l</span>
+	<span style='color:green'>i</span>
+	<span style='color:tomato'>b</span>
+        <span style='color:green'>u</span>
+	<span style='color:tomato'>r</span></h1>	
+	</p></center><br/></div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+    <span style='color:green'><center><h1>Restaurants</h1></center></span>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="LeyArabia.jpeg" alt="Popsicle" style="width:100%">
+      <h3>Ley Arabia,One of the best hotels in the world </h3>
+      <p>vegetarian and non-vegtarian halal cut and other foods are available.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="jevigo.jpeg" alt="Salmon" style="width:100%">
+      <h3>Javigo,a hotel in singapore</h3>
+      <p>hotel which is best known for fishes and prawns.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="zavicag.jpg" alt="Sandwich" style="width:100%">
+      <h3>Eassydinner, Hotel in bangalore</h3>
+      <p>All types of dinner available north indian south indian and other.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="easydinner.jpg" alt="Croissant" style="width:110%">
+      <h3>Zavicag</h3>
+      <p>famous for all types drinks .</p>
+    </div>
+  </div>
+  
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <span style='color:green'><h1>Breakfast delight</h1></span>
+    <div class="w3-quarter">
+      <img src="img2.jpg" alt="Sandwich" style="width:100%">
+      <h3>The perfect break fast </h3>
+      <p>to spend a wonderfull day with this cofee and juice and fruits</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img1.jpeg" alt="Steak" style="width:100%">
+      <h3>Let Me Tell You About This Parrata</h3>
+      <p>awesome breakfast to have with panneer parata with some lemon</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img3.jpeg" alt="Cherries" style="width:90%">
+      <h3>Banana stuffed with choclate</h3>
+      <p>A nutritious break fast and healthy </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img4.jpeg" alt="Pasta and Wine" style="width:80%">
+      <h3>baked bread with veggies </h3>
+      <p>Specially made for vegetarian yummy</p>
+    </div>
+</div>
+
+ 
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About our website, The Excalibur</h3><br>
+    <img src="img1.jpeg" alt="Me" class="w3-image" style="display:block;margin:auto" width="500" height="433">
+    <div class="w3-padding-32">
+      <h6><i>With Passion made for people for Good Food</i></h6>
+      <p>Our website helps customer to find the best Restaurant across world by considering customer review and displaying it on the website which we will beneficial to customer to find the best place and to get thier favourite food anywhere and at any time.</p>
+    </div>
+  </div>
+  <hr>
+  
+ 
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> 
+       <span class="w3-tag w3-black w3-small w3-margin-bottom">New York</span>
+       <span class="w3-tag w3-black w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-black w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-black w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-black w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-black w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
